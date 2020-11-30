@@ -1,4 +1,3 @@
-
 class Solution {
     public int[][] rotate(int[][] matrix) {
       // Figure out the size of the matrix 
