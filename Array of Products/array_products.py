@@ -13,8 +13,6 @@ def arrayOfProducts(array):
     for i in range(len(array)):
         products[i] = left_products[i] * right_products[i]
 
-    print(left_products)
-    print(right_products)
     return products
 
 
