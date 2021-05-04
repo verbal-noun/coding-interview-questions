@@ -3,7 +3,7 @@ class Solution:
         count = 0
         return self.find_combinations(0, n, count)
 
-    def find_combinations(self, curr, target):
+    def find_combinations(self, curr, target, count):
 
         # Base cases
         if(curr == target):
