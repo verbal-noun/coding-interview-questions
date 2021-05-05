@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isSubtree(self, root: TreeNode, subRoot: TreeNode) -> bool:
+    def isSubtree(self, root, subRoot):
         # Check the root
         return self.traverse(root, subRoot)
 
