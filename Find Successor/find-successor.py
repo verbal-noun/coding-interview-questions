@@ -1,5 +1,3 @@
-from typing import OrderedDict
-
 
 def find_successor(tree, target):
     tree_nodes = in_order_traversal(tree, [])
